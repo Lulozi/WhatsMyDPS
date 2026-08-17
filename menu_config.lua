@@ -148,7 +148,7 @@ if mod and MCM then
     MCM.SetSubcategoryNameTranslate(categoryName, subcategory, "设置")
     MCM.SetCategoryInfoTranslate(categoryName, "在游戏中显示实时 DPS 信息。")
     MCM.TranslateOptionsDisplayWithTable(categoryName, subcategory, {
-      { "Show DPS Above Isaac", "在以撒头顶显示 DPS" },
+      { "Show DPS Above Isaac", "在角色头顶显示 DPS" },
       { "Show DPS in stats side area", "在右侧属性栏显示 DPS" },
       { "Show additional stats in bottom left", "在左下角显示额外属性" },
       { "Language", "语言" },
@@ -157,7 +157,7 @@ if mod and MCM then
       { "Off", "关" },
     })
     MCM.TranslateOptionsInfoTextWithTable(categoryName, subcategory, {
-      ["Display the current DPS over Isaac's head."] = "在以撒头顶显示当前 DPS。",
+      ["Display the current DPS over Isaac's head."] = "在角色头顶显示当前 DPS。",
       ["Display the DPS in the stats side area."] = "在右侧属性栏显示当前 DPS。",
       ["Display the extra total damage and functional DPS info in the bottom left."] = "在左下角显示总伤害和理论 DPS 等额外信息。",
       ["Choose the display language. Auto uses the menu language."] = "选择界面语言。自动会跟随菜单语言。",
