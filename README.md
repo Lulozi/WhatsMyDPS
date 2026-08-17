@@ -1,15 +1,9 @@
-# WhatsMyDPS
-DPS meter mod for TBoI: Repentance. Based very loosely on an [old mod](https://steamcommunity.com/sharedfiles/filedetails/?id=836033374&searchtext=dps+meter), modified and expanded to work with Repentance.
+# What's My DPS [Fixed]
+这是一个以撒的结合的mod，基于 [WhatsMyDPS](https://github.com/SpikeHD/WhatsMyDPS) 修复已知问题.
 
-# Installation
-Download from the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3093631959).
+# 安装
+从 [Steam Workshop]() 订阅.
 
 # TODO
-- [x] Make text translucent (and maybe smaller?)
-- [x] Config options
-  - [x] Toggle whether DPS shows in stat sidebar or above isaac
-- [ ] Maybe make brimstone and bomb stuff better?
-- [ ] Fix mirror rooms
-
-# Contributing
-Issues, PRs, etc. all welcome!
+- [x] 修复修改设置重启游戏失效。
+- [x] 新增中文支持。
