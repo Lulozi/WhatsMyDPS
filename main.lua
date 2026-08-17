@@ -1,6 +1,6 @@
 local mod = RegisterMod("Whats My DPS [Fixed]", 1)
 WhatsMyDPSFixed = mod
-mod.VersionString = "1.0"
+mod.VersionString = "1.1"
 
 local json = require("json")
 
