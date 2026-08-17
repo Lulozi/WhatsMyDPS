@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<name>Whats My DPS?</name>
-	<directory>whats my dps</directory>
-	<description/>
-	<version>1.2</version>
-	<visibility/>
+    <name>Whats My DPS [Fixed]</name>
+    <directory>Whats My DPS [Fixed]</directory>
+    <description></description>
+    <version>1.0</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
 </metadata>
-
