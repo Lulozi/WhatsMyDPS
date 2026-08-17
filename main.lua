@@ -101,28 +101,18 @@ local function GetCurrentModPath()
 end
 
 -- 中英文使用同一款字体
+-- 在加载时缓存本 mod 的路径
+local modPath = GetCurrentModPath()
+
 local hudFont
-local hudFontLang
 
-local function LoadHudFont(lang)
+local function LoadHudFont()
   local font = Font()
+  local fontPath = modPath .. "resources/font/pftempestasevencondensed.fnt"
+  font:Load(fontPath)
 
-  if lang == "zh" then
-    -- 依次尝试多个路径（绝对路径 -> 原版字体）
-    local fontPaths = {
-      GetCurrentModPath() .. "resources/font/pftempestasevencondensed.fnt",
-      "font/pftempestasevencondensed.fnt",
-    }
-
-    for _, fontPath in ipairs(fontPaths) do
-      font:Load(fontPath)
-      print("[WhatsMyDPSFixed] font attempt: " .. fontPath .. " -> loaded=" .. tostring(font:IsLoaded()))
-      if font:IsLoaded() then
-        break
-      end
-    end
-  else
-    font:Load("font/pftempestasevencondensed.fnt")
+  if not font:IsLoaded() then
+    print("[WhatsMyDPSFixed] font load failed: " .. fontPath)
   end
 
   if font:IsLoaded() then
@@ -134,13 +124,8 @@ local function LoadHudFont(lang)
 end
 
 local function GetHudFont()
-  local lang = GetRuntimeLanguage()
-  if hudFont == nil or hudFontLang ~= lang then
-    local newFont = LoadHudFont(lang)
-    if newFont ~= nil then
-      hudFont = newFont
-      hudFontLang = lang
-    end
+  if hudFont == nil then
+    hudFont = LoadHudFont()
   end
   return hudFont
 end
