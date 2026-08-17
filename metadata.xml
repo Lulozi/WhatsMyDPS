@@ -2,7 +2,35 @@
 <metadata>
     <name>Whats My DPS [Fixed]</name>
     <directory>Whats My DPS [Fixed]</directory>
-    <description></description>
+    <description>
+    [h1] 我的DPS是多少？[修复版] [/h1]
+    修复版支持中英文，支持 Mod配置菜单 修改设置，建议订阅 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2494192799]Mod配置菜单（中文版）[/url]
+    [h2]主要修复：[/h2]
+    [b][list]
+    [*] 修复修改设置后重启游戏设置失效。
+    [*] 新增中文支持。
+    [/list][/b]
+
+    项目Github地址：https://github.com/Lulozi/WhatsMyDPS
+
+    [h3]原作者模组：[/h3]
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3093631959] What's My DPS? [/url]
+    原模组Github地址：https://github.com/SpikeHD/WhatsMyDPS
+
+    [hr][/hr]
+    This fixed version supports both Chinese and English and allows settings to be adjusted via Mod Config Menu. For the best experience, we recommend subscribing to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3701683951] Mod Config Menu - Impure [/url].
+    [h2]Main Fixes:[/h2]
+    [b][list]
+    [*] Fixed settings resetting to default after restarting the game.
+    [*] Added Simplified Chinese support.
+    [/list][/b]
+
+    Project GitHub: https://github.com/Lulozi/WhatsMyDPS
+
+    [h3]Original Mod:[/h3]
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3093631959]What's My DPS?[/url]
+    Original Mod GitHub: https://github.com/SpikeHD/WhatsMyDPS
+    </description>
     <version>1.0</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
